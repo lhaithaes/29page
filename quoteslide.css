@@ -42,6 +42,6 @@ img{
     background-color: #888383;
 }
 
-.carousel-indicators {
+#testimonial .carousel-indicators {
     bottom: -50px;
 }
