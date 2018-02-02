@@ -16,21 +16,18 @@ h2 {
 	font-size:30px;
 }
 
-p{
+#testimonial  p{
     font-family: 'Raleway', sans-serif;
     margin-bottom:20px;
     margin-top:20px;
-    color: 535454
 }
 
-img{
+#testimonial img{
     width: 150px;
     height: 150px;
     margin: 0 auto;
     border-radius: 50%;
     border: 1px solid #5db4c0;
-    float: left;
-    display: inline;
 }
 
 #testimonial .carousel-indicators  li {
