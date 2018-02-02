@@ -15,7 +15,7 @@ h2 {
    padding:80px 0px;
 }
 
-.fa.fa-quote-right{
+#testimonial.fa.fa-quote-right{
 	color:#5db4c0;
 	font-size:30px;
 }
@@ -34,17 +34,17 @@ img{
     border: 1px solid #5db4c0;
 }
 
-.carousel-indicators  li {
+#testimonial.carousel-indicators  li {
     background-color: #5db4c0;
     height: 13px;
     width: 13px;
     margin: 5px;
 }
 
-.carousel-indicators li.active {
+#testimonial.carousel-indicators li.active {
     background-color: #888383;
 }
 
-.carousel-indicators {
+#testimonial.carousel-indicators {
     bottom: -50px;
 }
