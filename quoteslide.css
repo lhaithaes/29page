@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
 
-section{
-    background:#fbfbfb;
-}
 h2 {
-    color: #4C4C4C;
-    word-spacing: 5px;
+    color: #535454;
     font-size: 30px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -15,7 +11,7 @@ h2 {
    padding:80px 0px;
 }
 
-.fa.fa-quote-right{
+#testimonial .fa.fa-quote-right{
 	color:#5db4c0;
 	font-size:30px;
 }
@@ -24,6 +20,7 @@ p{
     font-family: 'Raleway', sans-serif;
     margin-bottom:20px;
     margin-top:20px;
+    text-align: left;
 }
 
 img{
@@ -36,9 +33,6 @@ img{
 
 .carousel-indicators  li {
     background-color: #5db4c0;
-    height: 13px;
-    width: 13px;
-    margin: 5px;
 }
 
 .carousel-indicators li.active {
