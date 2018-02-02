@@ -16,13 +16,14 @@ h2 {
 	font-size:30px;
 }
 
-#testimonial  p{
+p{
     font-family: 'Raleway', sans-serif;
     margin-bottom:20px;
     margin-top:20px;
+    text-align: left;
 }
 
-#testimonial img{
+img{
     width: 150px;
     height: 150px;
     margin: 0 auto;
@@ -30,17 +31,17 @@ h2 {
     border: 1px solid #5db4c0;
 }
 
-#testimonial .carousel-indicators  li {
+.carousel-indicators  li {
     background-color: #5db4c0;
     height: 13px;
     width: 13px;
     margin: 5px;
 }
 
-#testimonial .carousel-indicators li.active {
+.carousel-indicators li.active {
     background-color: #888383;
 }
 
-#testimonial .carousel-indicators {
+.carousel-indicators {
     bottom: -50px;
 }
