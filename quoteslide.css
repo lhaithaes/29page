@@ -29,6 +29,8 @@ img{
     margin: 0 auto;
     border-radius: 50%;
     border: 1px solid #5db4c0;
+    float: left;
+    display: inline;
 }
 
 #testimonial .carousel-indicators  li {
