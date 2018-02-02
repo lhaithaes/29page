@@ -33,15 +33,12 @@ img{
 
 .carousel-indicators  li {
     background-color: #5db4c0;
-    height: 13px;
-    width: 13px;
-    margin: 5px;
 }
 
 .carousel-indicators li.active {
     background-color: #888383;
 }
 
-#testimonial .carousel-indicators {
+.carousel-indicators {
     bottom: -50px;
 }
