@@ -1,11 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
 
-section{
-    background:#fbfbfb;
-}
 h2 {
-    color: #4C4C4C;
-    word-spacing: 5px;
+    color: #535454;
     font-size: 30px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -24,6 +20,7 @@ p{
     font-family: 'Raleway', sans-serif;
     margin-bottom:20px;
     margin-top:20px;
+    color: 535454
 }
 
 img{
