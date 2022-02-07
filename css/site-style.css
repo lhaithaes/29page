@@ -786,13 +786,18 @@ p a[target="_blank"]:after {
   margin-right: 0;
 }
 
-.timeline>li.timeline-inverted {
-  float: right;
-  clear: both;
+.carousel-inner.horizontal>.item.next,
+.carousel-inner.horizontal>.item.active.right {
+  -webkit-transform: translate3d(33%, 0, 0);
+  transform: translate3d(33%, 0, 0);
+  left: 0;
 }
 
-.timeline>li.timeline-inverted>.timeline-badge {
-  left: -12px;
+.carousel-inner.horizontal>.item.prev,
+.carousel-inner.horizontal>.item.active.left {
+  -webkit-transform: translate3d(-33%, 0, 0);
+  transform: translate3d(-33%, 0, 0);
+  right: 0;
 }
 
 @media screen and (max-width: 767px) {
