@@ -737,7 +737,7 @@ p a[target="_blank"]:after {
   clear: both;
 }
 
-.timeline>li>.timeline-panel {
+.news-panel {
   width: 94%;
   float: left;
   border: 1px solid #ddd;
@@ -823,39 +823,39 @@ p a[target="_blank"]:after {
   color: inherit;
 }
 
-.timeline-body>p,
-.timeline-body>ul,
-.timeline-body>h3 {
+.news-body>p,
+.news-body>ul,
+.news-body>h3 {
   padding: 10px 20px;
   margin-bottom: 0;
   word-wrap: break-word;
 }
 
-.timeline-body>p+p {
+.news-body>p+p {
   margin-top: 5px;
 }
 
-.timeline-footer {
+.news-footer {
   padding: 10px 15px;
   background-color: #f4f4f4;
 }
 
-.timeline-footer i {
+.news-footer i {
   padding-right: 0.5em
 }
 
-.timeline-footer>a {
+.news-footer>a {
   cursor: pointer;
   text-decoration: none;
 }
 
-.timeline-footer .icon {
+.news-footer .icon {
   font-size: 20px;
   line-height: 20px;
   margin-right: 6px;
 }
 
-.timeline-footer .icon:last-child {
+.news-footer .icon:last-child {
   margin-right: 0;
 }
 
@@ -1063,7 +1063,7 @@ p a[target="_blank"]:after {
     left: 8px;
   }
 
-  .timeline-footer i {
+  .news-footer i {
     padding-right: 1em;
     font-size: 2em;
   }
