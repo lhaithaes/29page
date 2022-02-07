@@ -823,9 +823,7 @@ p a[target="_blank"]:after {
   color: inherit;
 }
 
-.news-body>p,
-.news-body>ul,
-.news-body>h3 {
+.news-body {
   padding: 10px 20px;
   margin-bottom: 0;
   word-wrap: break-word;
