@@ -800,6 +800,14 @@ p a[target="_blank"]:after {
   right: 0;
 }
 
+.carousel-inner.horizontal>.item.next.left,
+.carousel-inner.horizontal>.item.prev.right,
+.carousel-inner.horizontal>.item.active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  left: 0;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
