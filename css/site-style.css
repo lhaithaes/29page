@@ -786,6 +786,15 @@ p a[target="_blank"]:after {
   margin-right: 0;
 }
 
+.carousel-inner.horizontal>.item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
 .carousel-inner.horizontal>.item.next,
 .carousel-inner.horizontal>.item.active.right {
   -webkit-transform: translate3d(33%, 0, 0);
