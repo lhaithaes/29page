@@ -850,7 +850,7 @@ p a[target="_blank"]:after {
 }
 
 .blue-bottom-iceberg-background{
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
+  background-image: linear-gradient(to bottom, transparent, transparent 50%, #002a5b 50%);
   color: #ffffff;
 }
 
