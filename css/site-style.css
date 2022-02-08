@@ -726,10 +726,14 @@ p a[target="_blank"]:after {
 
 .clean-air-gradient {
   background-image: url('https://www.aesseal.com/sites/aesseal.com/files/article/investment-pledge-on-the-eve-of-Climate-Conference.jpg');
-  background-size: 100% 56%;
+  background-size: 100% 62%;
   color: #ffffff;
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color: #002A5B;
+}
+
+.clean-air-gradient p {
+  color: #ffffff;
 }
 
 .news-panel {
