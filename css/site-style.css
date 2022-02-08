@@ -726,7 +726,7 @@ p a[target="_blank"]:after {
 
 .clean-air-gradient {
   background-image: url('https://www.aesseal.com/sites/aesseal.com/files/article/investment-pledge-on-the-eve-of-Climate-Conference.jpg');
-  background-size: 100% 62%;
+  background-size: contain;
   color: #ffffff;
   background-repeat: no-repeat;
   background-color: #002A5B;
@@ -750,7 +750,7 @@ p a[target="_blank"]:after {
 
 .factory-future-gradient {
   background-image: url('https://www.aesseal.com/sites/aesseal.com/files/article/SolarPanels_1398484271-1260x702.jpg');
-  background-size: 100% 62%;
+  background-size: contain;
   color: #ffffff;
   background-repeat: no-repeat;
   background-color: #031e0d;
@@ -774,7 +774,7 @@ p a[target="_blank"]:after {
 
 .social-community-gradient {
   background-image: url('https://betterworld.solutions/assets/img/jacob-tabo-miV3P-vvBog-unsplash.jpg');
-  background-size: 100% 62%;
+  background-size: contain;
   color: #ffffff;
   background-repeat: no-repeat;
   background-color: #888C8F;
