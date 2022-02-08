@@ -737,6 +737,20 @@ p a[target="_blank"]:after {
   clear: both;
 }
 
+.blue-top-iceberg-background{
+  background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #ffffff 50%);
+  color: #535454;
+}
+
+.blue-bottom-iceberg-background{
+  background-image: linear-gradient(to bottom, transparent, transparent 50%, #002a5b 50%);
+  color: #ffffff;
+}
+
+.blue-bottom-iceberg-background p{
+  color: #ffffff;
+}
+
 .news-panel {
   width: 94%;
   float: left;
@@ -843,16 +857,6 @@ p a[target="_blank"]:after {
 
 .carousel-control.left {
   margin: 0 -1.2em
-}
-
-.blue-top-iceberg-background{
-  background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #ffffff 50%);
-  color: #535454;
-}
-
-.blue-bottom-iceberg-background{
-  background-image: linear-gradient(to bottom, transparent, transparent 50%, #002a5b 50%);
-  color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
