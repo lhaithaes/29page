@@ -760,6 +760,30 @@ p a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.social-community-gradient::before {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: -13%;
+  left: 0;
+  height: 26%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, transparent 50%, #031e0d 50%, rgba(3, 30, 13, 1) 65%, rgba(3, 30, 13, 0.95) 80%, transparent 100%);
+  pointer-events: none;
+}
+
+.social-community-gradient {
+  background-image: url('https://betterworld.solutions/assets/img/jacob-tabo-miV3P-vvBog-unsplash.jpg');
+  background-size: 100% 62%;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-color: #888C8F;
+}
+
+.social-community-gradient p {
+  color: #ffffff;
+}
+
 .news-panel {
   width: 94%;
   float: left;
