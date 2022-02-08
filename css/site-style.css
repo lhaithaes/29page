@@ -693,50 +693,6 @@ p a[target="_blank"]:after {
   cursor: pointer;
 }
 
-.timeline {
-  list-style: none;
-  padding: 20px 0 20px;
-  position: relative;
-}
-
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: " ";
-  width: 3px;
-  background-color: #d5d5d5;
-  left: 50%;
-  margin-left: -1.5px;
-}
-
-.timeline>li {
-  position: relative;
-  width: 50%;
-  float: left;
-  clear: both;
-}
-
-.timeline>li:before,
-.timeline>li:after {
-  content: " ";
-  display: table;
-}
-
-.timeline>li:after {
-  clear: both;
-}
-
-.timeline>li:before,
-.timeline>li:after {
-  content: " ";
-  display: table;
-}
-
-.timeline>li:after {
-  clear: both;
-}
-
 .blue-top-iceberg-background{
   background-image: linear-gradient(to bottom, #002a5b, #002a5b 50%, #ffffff 50%);
   color: #535454;
