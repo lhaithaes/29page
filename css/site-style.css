@@ -817,6 +817,11 @@ p a[target="_blank"]:after {
   left: 0;
 }
 
+.next-arrow, .prev-arrow {
+  color: #5cabdf;
+  text-shadow: 0 0 3px #ffffff;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
