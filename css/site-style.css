@@ -736,6 +736,30 @@ p a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.factory-future::before {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: -13%;
+  left: 0;
+  height: 26%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, transparent 0%, #002A5B 24%, #002A5B 49%, transparent 100%);
+  pointer-events: none;
+}
+
+.factory-future {
+  background-image: url('https://www.aesseal.com/sites/aesseal.com/files/article/SolarPanels_1398484271-1260x702.jpg');
+  background-size: 100% 62%;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-color: #031e0d;
+}
+
+.factory-future p {
+  color: #ffffff;
+}
+
 .news-panel {
   width: 94%;
   float: left;
