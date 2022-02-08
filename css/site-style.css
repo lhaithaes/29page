@@ -849,6 +849,11 @@ p a[target="_blank"]:after {
   color: #535454;
 }
 
+.blue-bottom-iceberg-background{
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #002a5b 50%);
+  color: #ffffff;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
