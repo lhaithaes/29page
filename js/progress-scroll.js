@@ -41,6 +41,10 @@ $(document).ready(function(){
       $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
+        .not('[href="#latestNews"]')
+        .not('[href="#clean-energy"]')
+        .not('[href="#factory-future"]')
+        .not('[href="#social-community"]')
         .click(function(event) {
           // On-page links
           if (
