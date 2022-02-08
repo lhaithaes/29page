@@ -830,7 +830,8 @@ p a[target="_blank"]:after {
   opacity: 0.7;
   background-color: #ffffff;
   width: 4.5%;
-  height: 11.5%;
+  height: 6.5%;
+  top: 50%;
 }
 
 .carousel-controls .carousel-control:hover {
