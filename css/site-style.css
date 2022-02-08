@@ -1028,68 +1028,51 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-  ul {
-    list-style-type: none;
-    overflow: hidden;
-    padding-left: 0em;
-  }
-
-  ul.timeline:before {
-    left: 20px;
-  }
-
-  ul.timeline>li {
-    margin-bottom: 25px;
-    position: relative;
-    width: 100%;
-    float: left;
-    clear: left;
-  }
-
-  ul.timeline>li>.timeline-panel {
-    width: calc(100% - 46px);
-    width: -moz-calc(100% - 46px);
-    width: -webkit-calc(100% - 46px);
-  }
-
-  ul.timeline>li>.timeline-badge {
-    left: 8px;
-    margin-left: 0;
-    top: 18px;
-  }
-
-  ul.timeline>li>.timeline-panel {
-    float: right;
-  }
-
-  ul.timeline>li>.timeline-panel:before {
-    border-left-width: 0;
-    border-right-width: 13px;
-    left: -13px;
-    right: auto;
-  }
-
-  ul.timeline>li>.timeline-panel:after {
-    border-left-width: 0;
-    border-right-width: 11px;
-    left: -11px;
-    right: auto;
-  }
-
-  .timeline>li.timeline-inverted {
-    float: left;
-    clear: left;
-    margin-top: 0px;
-    margin-bottom: 25px;
-  }
-
-  .timeline>li.timeline-inverted>.timeline-badge {
-    left: 8px;
-  }
-
   .news-footer i {
     padding-right: 1em;
     font-size: 2em;
+  }
+
+  .carousel-inner.horizontal>.item.next,
+  .carousel-inner.horizontal>.item.active.right {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    left: 0;
+  }
+
+  .carousel-inner.horizontal>.item.prev,
+  .carousel-inner.horizontal>.item.active.left {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    right: 0;
+  }
+
+  .carousel-inner.horizontal>.item.next.left,
+  .carousel-inner.horizontal>.item.prev.right,
+  .carousel-inner.horizontal>.item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div {
+    display: none;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div {
+    display: none;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div:first-child {
+    display: block;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:first-child {
+    display: block;
+  }
+
+  .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right {
+    display: block;
   }
 }
 
@@ -1210,6 +1193,36 @@ p a[target="_blank"]:after {
     top: 0em;
     display: block;
   }
+
+  .carousel-inner.horizontal>.item.next,
+  .carousel-inner.horizontal>.item.active.right {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    left: 0;
+  }
+
+  .carousel-inner.horizontal>.item.prev,
+  .carousel-inner.horizontal>.item.active.left {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    right: 0;
+  }
+
+  .carousel-inner.horizontal>.item.next.left,
+  .carousel-inner.horizontal>.item.prev.right,
+  .carousel-inner.horizontal>.item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div:last-child {
+    display: none;
+  }
+
+.media-carousel .carousel-inner .item.next.left>div:last-child {
+    display: none;
+  }
 }
 
 /* md */
@@ -1329,6 +1342,29 @@ p a[target="_blank"]:after {
     padding-left: 16em;
     overflow-x: auto;
   }
+
+
+    .carousel-inner.horizontal>.item.next,
+    .carousel-inner.horizontal>.item.active.right {
+      -webkit-transform: translate3d(33%, 0, 0);
+      transform: translate3d(33%, 0, 0);
+      left: 0;
+    }
+
+    .carousel-inner.horizontal>.item.prev,
+    .carousel-inner.horizontal>.item.active.left {
+      -webkit-transform: translate3d(-33%, 0, 0);
+      transform: translate3d(-33%, 0, 0);
+      right: 0;
+    }
+
+    .carousel-inner.horizontal>.item.next.left,
+    .carousel-inner.horizontal>.item.prev.right,
+    .carousel-inner.horizontal>.item.active {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      left: 0;
+    }
 }
 
 /* lg */
