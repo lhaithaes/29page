@@ -840,7 +840,7 @@ p a[target="_blank"]:after {
   opacity: 1;
 }
 
-.carousel-control .left {
+.carousel-control.left {
   margin: 0 -1.2em
 }
 
