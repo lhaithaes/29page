@@ -1259,11 +1259,11 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.prev.right>div:first-child {
+  .media-carousel .carousel-inner .item.prev.right>div:first-child, .media-carousel .carousel-inner .item.prev.right>div:first-child+div {
     display: flex;
   }
 
-  .media-carousel .carousel-inner .item.next.left>div:first-child {
+  .media-carousel .carousel-inner .item.next.left>div:first-child, .media-carousel .carousel-inner .item.prev.right>div:first-child+div {
     display: flex;
   }
 
