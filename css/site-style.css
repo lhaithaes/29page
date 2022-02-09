@@ -292,14 +292,6 @@ p a[target="_blank"]:after {
   top: -3em;
 }
 
-.img-responsive {
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
-}
-
 .wavelogo {
   height: 10em;
   background: #ffffff;
