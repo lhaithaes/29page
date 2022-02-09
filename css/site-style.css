@@ -1235,6 +1235,7 @@ p a[target="_blank"]:after {
     -webkit-transform: translate3d(50%, 0, 0);
     transform: translate3d(50%, 0, 0);
     left: 0;
+    display: flex;
   }
 
   .carousel-inner.horizontal>.item.prev,
@@ -1242,6 +1243,7 @@ p a[target="_blank"]:after {
     -webkit-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
     right: 0;
+    display: flex;
   }
 
   .carousel-inner.horizontal>.item.next.left,
@@ -1265,14 +1267,6 @@ p a[target="_blank"]:after {
   }
 
   .carousel-inner .item.active>div:first-child+div+div {
-    display: none;
-  }
-
-  .media-carousel .carousel-inner .item.active.prev.right>div {
-    display: none;
-  }
-
-  .media-carousel .carousel-inner .item.active.next.left>div {
     display: none;
   }
 
