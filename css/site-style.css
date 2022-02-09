@@ -1086,12 +1086,20 @@ p a[target="_blank"]:after {
     display: block;
   }
 
-  .carousel-inner .item.active>div:first-child+div {
+  .media-carousel .carousel-inner .item.prev.right>div {
     display: none;
   }
 
-  .carousel-inner .item.active>div:first-child+div+div {
+  .media-carousel .carousel-inner .item.next.left>div {
     display: none;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div:first-child {
+    display: block;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:first-child {
+    display: block;
   }
 }
 
