@@ -794,7 +794,7 @@ p a[target="_blank"]:after {
 }
 
 .news-body, .news-body p {
-  padding: 10px 20px;
+  padding: 8px 8px;
   margin-bottom: 0;
   word-wrap: break-word;
   color: #535454;
