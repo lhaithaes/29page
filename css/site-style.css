@@ -1080,6 +1080,7 @@ p a[target="_blank"]:after {
 
   .media-carousel .carousel-inner .item.active>div:first-child {
     display: flex;
+    justify-content: center;
   }
 
   .media-carousel .carousel-inner .item.active {
