@@ -838,7 +838,7 @@ p a[target="_blank"]:after {
   display: flex;
 }
 
-.carousel-inner .item.active .news {
+.carousel-inner .item.active .news, .carousel-inner.horizontal>.item.active.right .news, .carousel-inner.horizontal>.item.active.left .news, .carousel-inner.horizontal>.item.prev.right .news, .carousel-inner.horizontal>.item.next.left .news {
   display: flex;
 }
 
