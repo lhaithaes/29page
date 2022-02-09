@@ -1094,19 +1094,19 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.prev.right>div {
+  .carousel-inner .item.prev.right>div {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.next.left>div {
+  .carousel-inner .item.next.left>div {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.prev.right>div:first-child {
+  .carousel-inner .item.prev.right>div:first-child {
     display: block;
   }
 
-  .media-carousel .carousel-inner .item.next.left>div:first-child {
+  .carousel-inner .item.next.left>div:first-child {
     display: block;
   }
 }
