@@ -1093,22 +1093,6 @@ p a[target="_blank"]:after {
   .carousel-inner .item.active>div:first-child+div+div {
     display: none;
   }
-
-  .carousel-inner .item.prev.right>div {
-    display: none;
-  }
-
-  .carousel-inner .item.next.left>div {
-    display: none;
-  }
-
-  .carousel-inner .item.prev.right>div:first-child {
-    display: block;
-  }
-
-  .carousel-inner .item.next.left>div:first-child {
-    display: block;
-  }
 }
 
 /* sm */
