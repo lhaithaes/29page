@@ -644,6 +644,10 @@ p a[target="_blank"]:after {
   padding-bottom: 2em;
 }
 
+.img-75{
+  max-width: 75%;
+}
+
 .margin-top-2em {
   margin-top: 2em;
 }
