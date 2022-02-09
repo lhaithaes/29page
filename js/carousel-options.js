@@ -58,9 +58,7 @@
   }
 
   window.onload = function() {
-    if ($(window).width() > 991) {
       horizontalNormalization();
-    }
   };
 
   $(document).ready(function() {
