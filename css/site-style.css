@@ -1071,11 +1071,11 @@ p a[target="_blank"]:after {
   }
 
   .media-carousel .carousel-inner .item.prev.right>div:first-child {
-    display: block;
+    display: flex;
   }
 
   .media-carousel .carousel-inner .item.next.left>div:first-child {
-    display: block;
+    display: flex;
   }
 
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right {
