@@ -1098,6 +1098,10 @@ p a[target="_blank"]:after {
   .carousel-inner .item.active>div:first-child+div+div {
     display: none;
   }
+
+  .carousel-control.left{
+    margin: 0 0;
+  }
 }
 
 /* sm */
