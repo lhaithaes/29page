@@ -1259,7 +1259,7 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-.media-carousel .carousel-inner .item.next.left>div:last-child {
+  .media-carousel .carousel-inner .item.next.left>div:last-child {
     display: none;
   }
 
