@@ -1264,6 +1264,7 @@ p a[target="_blank"]:after {
 
   .carousel-inner .item.active>div:first-child+div {
     display: flex;
+    height: 100%;
   }
 
   .carousel-inner .item.active>div:first-child+div+div {
@@ -1272,10 +1273,12 @@ p a[target="_blank"]:after {
 
   .media-carousel .carousel-inner .item.prev.right>div:first-child, .media-carousel .carousel-inner .item.prev.right>div:first-child+div {
     display: flex;
+    height: 100%;
   }
 
   .media-carousel .carousel-inner .item.next.left>div:first-child, .media-carousel .carousel-inner .item.prev.right>div:first-child+div {
     display: flex;
+    height: 100%;
   }
 
   .media-carousel .carousel-inner .item.active>div:first-child {
