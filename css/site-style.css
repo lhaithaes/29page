@@ -1066,11 +1066,11 @@ p a[target="_blank"]:after {
     left: 0;
   }
 
-  .media-carousel .carousel-inner .item.prev.right>div {
+  .media-carousel .carousel-inner .item.active.prev.right>div {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.next.left>div {
+  .media-carousel .carousel-inner .item.active.next.left>div {
     display: none;
   }
 
