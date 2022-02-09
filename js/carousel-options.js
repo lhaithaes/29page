@@ -28,28 +28,6 @@
     doAnimations($animatingElems);
   });
 
-var isOnDiv = false;
-  document.querySelectorAll(".media-carousel-block").forEach(i => {
-      i.addEventListener("mouseover", function(  ) {isOnDiv=true;});
-  });
-
-  document.querySelectorAll(".media-carousel-block").forEach(i =>{
-    i.addEventListener("mouseout", function(  ) {isOnDiv=false;});
-  });
-
-  $('#carousel-fade').on('slid.bs.carousel', function (){
-    reset();
-    if(isOnDiv == true){
-      setDisabled(stopBtn);
-      removeDisabled(startBtn);
-      clearInterval(timerInterval);
-    } else {
-      setDisabled(startBtn);
-      removeDisabled(stopBtn);
-      startTimer();
-    }
-  });
-
   function carouselNormalization() {
     var items = $('#carousel-fade .item'),
       heights = [],
@@ -78,7 +56,7 @@ var isOnDiv = false;
   }
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item, .media-carousel .mob-slide'),
+    var items = $('.media-carousel .item'),
       heights = [],
       tallest;
 
@@ -113,69 +91,6 @@ var isOnDiv = false;
     }
   };
 
-  $(window).on('load resize', function() {
-    var itemsToWrap = $('.tab-pane.active .mob-slide');
-    var elementTowrap = "";
-    if ($(window).width() < 767) {
-      $('.media-tab.active .mob-carousel').addClass('carousel carousel-fade');
-      $('.media-tab.active .inner').addClass('carousel-inner');
-      $.each($(itemsToWrap), function(index) {
-        if (index == 0) {
-          $(this).addClass('item active');
-        } else {
-          $(this).addClass('item');
-        }
-      });
-      $(".media-tab.active .mob-carousel .carousel-inner").append($(elementTowrap));
-      $(".media-tab.active .mob-carousel").carousel("pause").removeData();
-      $(".media-tab.active .mob-carousel").carousel({
-        interval: 7000,
-      });
-    } else {
-      $('.mob-carousel').removeClass('carousel carousel-fade');
-      $('.mob-carousel').removeAttr("data-ride", "carousel");
-      $('.inner').removeClass('carousel-inner');
-      $.each($(itemsToWrap), function(index) {
-        if (index == 0) {
-          $(this).removeClass('item active');
-        } else {
-          $(this).removeClass('item active');
-        }
-      });
-      $('.mob-carousel .carousel-inner').append($(elementTowrap));
-    }
-  });
-
-  $(document).ready(function() {
-
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-      var itemsToWrap = $('.media-tab.active .mob-slide');
-      var itemsToRemove = $('.mob-slide');
-        $.each($(itemsToRemove), function(){
-          if($(itemsToRemove).hasClass('item'||'item active')){
-            $(this).removeClass('item');
-            $(this).removeClass('active');
-          }
-        });
-      $('.mob-carousel').removeAttr("data-ride", "carousel");
-      $('.mob-carousel').carousel("pause").removeData();
-      if ($(window).width() < 767 ) {
-        $('.media-tab.active .mob-carousel').attr("data-ride", "carousel");
-        $('.media-tab.active .mob-carousel').addClass('carousel carousel-fade');
-        $('.media-tab.active .inner').addClass('carousel-inner');
-        $.each($(itemsToWrap), function(index) {
-          if (index == 0) {
-            $(this).addClass('item active');
-          } else {
-            $(this).addClass('item');
-          }
-        });
-        $(".media-tab.active .mob-carousel").carousel("pause").removeData();
-        $(".media-tab.active .mob-carousel").carousel({
-          interval: 7000,
-        });    }
-    });
-
     $('div[data-ride="carousel"]').each(function() {
       var $carousel = $(this);
       var id = this.id;
@@ -185,23 +100,6 @@ var isOnDiv = false;
         relatedIndicators.removeClass('active');
         relatedIndicators.filter('[data-slide-to="' + index + '"]').addClass('active');
       });
-    });
-
-    $('.carousel .vertical .item').each(function() {
-      var next = $(this).next();
-      if (!next.length) {
-        next = $(this).siblings(':first');
-      }
-      next.children(':first-child').clone().appendTo($(this));
-
-      for (var i = 1; i < 3; i++) {
-        next = next.next();
-        if (!next.length) {
-          next = $(this).siblings(':first');
-        }
-
-        next.children(':first-child').clone().appendTo($(this));
-      }
     });
 
     $('.carousel .horizontal .item').each(function() {
