@@ -626,6 +626,10 @@ p a[target="_blank"]:after {
   padding: 1em 0.5em 1em 0.5em;
 }
 
+.margin-top {
+  margin-top: 1em;
+}
+
 .padding-top-2em {
   padding-top: 2em;
 }
