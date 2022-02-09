@@ -1078,6 +1078,10 @@ p a[target="_blank"]:after {
     display: flex;
   }
 
+  .media-carousel .carousel-inner .item.active>div:first-child {
+    display: flex;
+  }
+
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right {
     display: block;
   }
