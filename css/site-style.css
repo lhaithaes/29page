@@ -789,6 +789,10 @@ p a[target="_blank"]:after {
   flex-wrap: wrap;
 }
 
+.news-heading {
+  width: 100%;
+}
+
 .news-body, .news-body p {
   padding: 10px 20px;
   margin-bottom: 0;
