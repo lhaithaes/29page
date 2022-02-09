@@ -638,6 +638,10 @@ p a[target="_blank"]:after {
   margin-top: 2em;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 .footer-curve {
   width: 100%;
   right: -1.6em;
