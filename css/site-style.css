@@ -1259,11 +1259,11 @@ p a[target="_blank"]:after {
     display: flex;
   }
 
-  .media-carousel .carousel-inner .item.prev.right>div:last-child {
+  .media-carousel .carousel-inner .item.active.prev.right>div:last-child {
     display: none;
   }
 
-  .media-carousel .carousel-inner .item.next.left>div:last-child {
+  .media-carousel .carousel-inner .item.active.next.left>div:last-child {
     display: none;
   }
 
