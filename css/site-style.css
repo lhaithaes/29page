@@ -758,12 +758,7 @@ p a[target="_blank"]:after {
   left: 0;
   height: 26%;
   width: 100%;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#002a5b+0,002a5b+40,ffffff+100 */
-  background: #002a5b; /* Old browsers */
-  background: -moz-linear-gradient(top,  #002a5b 0%, #002a5b 40%, transparent 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #002a5b 0%,#002a5b 40%,transparent 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #002a5b 0%,#002a5b 40%,transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002a5b', endColorstr='transparent',GradientType=0 ); /* IE6-9 */
+  background-image: linear-gradient(to bottom, transparent 50%, #002A5B 50%, rgba(0, 42, 91, 1) 65%, rgba(0, 42, 91, 0.95) 80%, transparent 100%);
   pointer-events: none;
 }
 
