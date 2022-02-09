@@ -1085,6 +1085,14 @@ p a[target="_blank"]:after {
   .media-carousel .carousel-inner .item.active, .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right {
     display: block;
   }
+
+  .active>div:first-child+div {
+    display: none;
+  }
+
+  .active>div:first-child+div+div {
+    display: none;
+  }
 }
 
 /* sm */
@@ -1234,6 +1242,14 @@ p a[target="_blank"]:after {
 .media-carousel .carousel-inner .item.next.left>div:last-child {
     display: none;
   }
+
+  .active>div:first-child+div {
+    display: flex;
+  }
+
+  .active>div:first-child+div+div {
+    display: none;
+  }
 }
 
 /* md */
@@ -1375,6 +1391,14 @@ p a[target="_blank"]:after {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
       left: 0;
+    }
+
+    .active>div:first-child+div {
+      display: flex;
+    }
+
+    .active>div:first-child+div+div {
+      display: flex;
     }
 }
 
