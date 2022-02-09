@@ -1252,6 +1252,7 @@ p a[target="_blank"]:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+    display: flex;
   }
 
   .media-carousel .carousel-inner .item.prev.right>div:last-child {
