@@ -1102,6 +1102,14 @@ p a[target="_blank"]:after {
   .carousel-control.left{
     margin: 0 0;
   }
+
+  .factory-future-gradient::before {
+    top: -14%;
+  }
+
+  .social-community-gradient::before{
+    top: -14%;
+  }
 }
 
 /* sm */
