@@ -794,7 +794,7 @@ p a[target="_blank"]:after {
 
 .social-community-gradient {
   background-image: url('https://betterworld.solutions/assets/img/jacob-tabo-miV3P-vvBog-unsplash.jpg');
-  background-size: contain;
+  background-size: 100%;
   color: #ffffff;
   background-repeat: no-repeat;
   background-color: #888C8F;
