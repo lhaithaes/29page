@@ -1447,6 +1447,10 @@ p a[target="_blank"]:after {
     .carousel-inner .item.active .news, .carousel-inner.horizontal>.item.active.right .news, .carousel-inner.horizontal>.item.active.left .news, .carousel-inner.horizontal>.item.prev.right .news, .carousel-inner.horizontal>.item.next.left .news {
       display: flex;
     }
+
+    .carousel-inner.horizontal>.item.active.right .news:last-child, .carousel-inner.horizontal>.item.active.left .news:last-child, .carousel-inner.horizontal>.item.prev.right .news:last-child, .carousel-inner.horizontal>.item.next.left .news:last-child {
+      display: flex;
+    }
 }
 
 /* lg */
