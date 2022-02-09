@@ -58,7 +58,6 @@
   }
 
   window.onload = function() {
-    carouselNormalization();
     if ($(window).width() > 991) {
       horizontalNormalization();
     }
