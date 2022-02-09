@@ -1086,6 +1086,14 @@ p a[target="_blank"]:after {
     display: block;
   }
 
+  .carousel-inner .item.active>div:first-child+div {
+    display: none;
+  }
+
+  .carousel-inner .item.active>div:first-child+div+div {
+    display: none;
+  }
+
   .media-carousel .carousel-inner .item.prev.right>div {
     display: none;
   }
