@@ -1086,11 +1086,11 @@ p a[target="_blank"]:after {
     display: block;
   }
 
-  .active>div:first-child+div {
+  .carousel-inner .item.active>div:first-child+div {
     display: none;
   }
 
-  .active>div:first-child+div+div {
+  .carousel-inner .item.active>div:first-child+div+div {
     display: none;
   }
 }
@@ -1243,11 +1243,11 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-  .active>div:first-child+div {
+  .carousel-inner .item.active>div:first-child+div {
     display: flex;
   }
 
-  .active>div:first-child+div+div {
+  .carousel-inner .item.active>div:first-child+div+div {
     display: none;
   }
 }
@@ -1393,11 +1393,11 @@ p a[target="_blank"]:after {
       left: 0;
     }
 
-    .active>div:first-child+div {
+    .carousel-inner .item.active>div:first-child+div {
       display: flex;
     }
 
-    .active>div:first-child+div+div {
+    .carousel-inner .item.active>div:first-child+div+div {
       display: flex;
     }
 }
