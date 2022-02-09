@@ -834,6 +834,14 @@ p a[target="_blank"]:after {
   margin-right: 0;
 }
 
+.carousel-inner .item.active {
+  display: flex;
+}
+
+.carousel-inner .item.active .news {
+  display: flex;
+}
+
 .carousel-inner.horizontal>.item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
     -o-transition: -o-transform .6s ease-in-out;
