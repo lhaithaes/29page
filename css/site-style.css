@@ -1251,7 +1251,23 @@ p a[target="_blank"]:after {
     display: none;
   }
 
-  .carousel-inner .item.active .news, .carousel-inner.horizontal>.item.active.right .news, .carousel-inner.horizontal>.item.active.left .news, .carousel-inner.horizontal>.item.prev.right .news, .carousel-inner.horizontal>.item.next.left .news {
+  .media-carousel .carousel-inner .item.active.prev.right>div {
+    display: none;
+  }
+
+  .media-carousel .carousel-inner .item.active.next.left>div {
+    display: none;
+  }
+
+  .media-carousel .carousel-inner .item.prev.right>div:first-child {
+    display: flex;
+  }
+
+  .media-carousel .carousel-inner .item.next.left>div:first-child {
+    display: flex;
+  }
+
+  .media-carousel .carousel-inner .item.active>div:first-child {
     display: flex;
   }
 }
