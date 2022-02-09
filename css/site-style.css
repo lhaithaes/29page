@@ -856,6 +856,7 @@ p a[target="_blank"]:after {
   -webkit-transform: translate3d(33%, 0, 0);
   transform: translate3d(33%, 0, 0);
   left: 0;
+  display: flex;
 }
 
 .carousel-inner.horizontal>.item.prev,
@@ -863,6 +864,7 @@ p a[target="_blank"]:after {
   -webkit-transform: translate3d(-33%, 0, 0);
   transform: translate3d(-33%, 0, 0);
   right: 0;
+  display: flex;
 }
 
 .carousel-inner.horizontal>.item.next.left,
@@ -871,6 +873,7 @@ p a[target="_blank"]:after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   left: 0;
+  display: flex;
 }
 
 .next-arrow, .prev-arrow {
