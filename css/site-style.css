@@ -483,7 +483,6 @@ p a[target="_blank"]:after {
 
 .curve-down {
   width: 8em;
-  ;
   height: 6.185em;
   right: 6.5em;
   position: relative;
@@ -639,6 +638,10 @@ p a[target="_blank"]:after {
 
 .padding-top-2em {
   padding-top: 2em;
+}
+
+.padding-bottom-2em {
+  padding-bottom: 2em;
 }
 
 .margin-top-2em {
