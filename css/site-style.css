@@ -841,6 +841,11 @@ p a[target="_blank"]:after {
   background-color: #f4f4f4;
   align-self: flex-end;
   width: 100%;
+  color: #535354;
+}
+
+.news-footer p {
+  color: #535454
 }
 
 .news-footer i {
