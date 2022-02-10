@@ -730,7 +730,7 @@ p a[target="_blank"]:after {
   display: block;
   content: " ";
   position: absolute;
-  top: -13%;
+  top: -12%;
   left: 0;
   height: 26%;
   width: 100%;
