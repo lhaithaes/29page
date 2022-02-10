@@ -869,6 +869,12 @@ p a[target="_blank"]:after {
   margin-right: 0;
 }
 
+.img-adaptive {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .carousel-inner .item.active {
   display: flex;
 }
