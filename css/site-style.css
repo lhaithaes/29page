@@ -758,7 +758,7 @@ p a[target="_blank"]:after {
   left: 0;
   height: 26%;
   width: 100%;
-  background-image: linear-gradient(to bottom, transparent 50%, #002A5B 50%, rgba(0, 54, 117, 0.75) 73%, transparent 100%)
+  background-image: linear-gradient(to bottom, transparent 50%, #002A5B 50%, rgba(0, 54, 117, 0.75) 73%, transparent 100%);
   pointer-events: none;
 }
 
