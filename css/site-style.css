@@ -819,6 +819,7 @@ p a[target="_blank"]:after {
 
 .news-heading {
   width: 100%;
+  padding-top: 1em;
 }
 
 .news-body {
