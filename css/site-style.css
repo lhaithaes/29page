@@ -850,7 +850,8 @@ p a[target="_blank"]:after {
 }
 
 .news-footer i {
-  padding-right: 0.5em
+  padding-right: 0.5em;
+  vertical-align: middle;
 }
 
 .news-footer>a {
