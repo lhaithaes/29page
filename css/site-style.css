@@ -1177,15 +1177,6 @@ a.btn-default:hover {
   .social-community-gradient::before{
     top: -14%;
   }
-
-  .community-overhang {
-    margin-bottom: -6em;
-    z-index: 1;
-  }
-
-  .community-greyback-text {
-    padding-top: 7em;
-  }
 }
 
 /* sm */
@@ -1620,6 +1611,17 @@ a.btn-default:hover {
     font-size: 1em;
     line-height: 36px;
     top: 0;
+  }
+}
+
+@media screen (min-width: 1501px) {
+  .community-overhang {
+    margin-bottom: -6em;
+    z-index: 1;
+  }
+
+  .community-greyback-text {
+    padding-top: 7em;
   }
 }
 
