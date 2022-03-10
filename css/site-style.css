@@ -734,7 +734,7 @@ p a[target="_blank"]:after {
   left: 0;
   height: 26%;
   width: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(105,119,119,1) 24%, rgba(105,119,119,1) 49%, transparent 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(105,119,119,0.5) 11%, rgba(105,119,119,1) 45.5%, rgba(105,119,119,0.5) 78%, transparent 100%);
   pointer-events: none;
 }
 
