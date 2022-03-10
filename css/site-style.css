@@ -800,11 +800,6 @@ p a[target="_blank"]:after {
   background-color: #888C8F;
 }
 
-.community-overhang {
-  margin-bottom: -4em;
-  z-index: 1;
-}
-
 .social-community-gradient p {
   color: #ffffff;
 }
@@ -1180,6 +1175,11 @@ a.btn-default:hover {
 
   .social-community-gradient::before{
     top: -14%;
+  }
+
+  .community-overhang {
+    margin-bottom: -4em;
+    z-index: 1;
   }
 }
 
