@@ -1178,8 +1178,12 @@ a.btn-default:hover {
   }
 
   .community-overhang {
-    margin-bottom: -4em;
+    margin-bottom: -6em;
     z-index: 1;
+  }
+
+  .community-greyback-text {
+    padding-top: 7em;
   }
 }
 
