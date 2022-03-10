@@ -1614,7 +1614,7 @@ a.btn-default:hover {
   }
 }
 
-@media screen (min-width: 1501px) {
+@media screen and (min-width: 1501px) {
   .community-overhang {
     margin-bottom: -6em;
     z-index: 1;
