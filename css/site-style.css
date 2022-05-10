@@ -929,6 +929,7 @@ background: linear-gradient(180deg, rgba(0,42,91,1) 0%, rgba(0,42,91,0) 100%);
   width: 3em;
   height: 3em;
   top: 50%;
+  z-index: 3;
 }
 
 .carousel-controls .carousel-control:hover {
