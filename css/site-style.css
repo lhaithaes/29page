@@ -754,7 +754,7 @@ p a[target="_blank"]:after {
   display: block;
   content: " ";
   position: absolute;
-  top: -16%;
+  top: -13%;
   left: 0;
   height: 23%;
   width: 100%;
