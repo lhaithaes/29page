@@ -1519,6 +1519,10 @@ a.btn-default:hover {
     .carousel-inner.horizontal>.item.active.right .news:last-child, .carousel-inner.horizontal>.item.active.left .news:last-child, .carousel-inner.horizontal>.item.prev.right .news:last-child, .carousel-inner.horizontal>.item.next.left .news:last-child {
       display: flex;
     }
+
+    .flex-gradient {
+      padding-top: 7.5em;
+    }
 }
 
 /* lg */
