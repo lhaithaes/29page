@@ -632,8 +632,204 @@ p a[target="_blank"]:after {
   padding-right: 0.5em;
 }
 
+.padding-bottom {
+  padding-bottom: 1em;
+}
+
+.padding-top {
+  padding-top: 1em;
+}
+
+.padding-left {
+  padding-left: 1em;
+}
+
+.padding-right {
+  padding-right: 1em;
+}
+
+.padding-05em {
+  padding: 0.5em;
+}
+
+.padding-top-05em {
+  padding-top: 0.5em;
+}
+
+.padding-left-05em {
+  padding-left: 0.5em;
+}
+
+.padding-right-05em {
+  padding-right: 0.5em;
+}
+
+.padding-bottom-05em {
+  padding-bottom: 0.5em;
+}
+
+.padding-1em {
+  padding: 1em;
+}
+
+.padding-2em {
+  padding: 2em;
+}
+
+.padding-top-2em {
+  padding-top: 2em;
+}
+
+.padding-bottom-2em {
+  padding-bottom: 2em;
+}
+
+.padding-left-2em {
+  padding-left: 2em;
+}
+
+.padding-right-2em {
+  padding-right: 2em;
+}
+
+.margin-top-2em {
+  margin-top: 2em;
+}
+
+.margin-bottom-2em {
+  margin-bottom: 2em;
+}
+
+.margin-right-2em {
+  margin-right: 2em;
+}
+
+.margin-left-2em {
+  margin-left: 2em;
+}
+
+.padding-3em {
+  padding: 3em;
+}
+
+.padding-top-3em {
+  padding-top: 3em;
+}
+
+.padding-bottom-3em {
+  padding-bottom: 3em;
+}
+
+.padding-left-3em {
+  padding-left: 3em;
+}
+
+.padding-right-3em {
+  padding-right: 3em;
+}
+
+.margin-top-3em {
+  margin-top: 3em;
+}
+
+.margin-bottom-3em {
+  margin-bottom: 3em;
+}
+
+.margin-right-3em {
+  margin-right: 3em;
+}
+
+.margin-left-3em {
+  margin-left: 3em;
+}
+
+.padding-5em {
+  padding: 5em;
+}
+
+.padding-top-5em {
+  padding-top: 5em;
+}
+
+.padding-bottom-5em {
+  padding-bottom: 5em;
+}
+
+.padding-left-5em {
+  padding-left: 5em;
+}
+
+.padding-right-5em {
+  padding-right: 5em;
+}
+
+.margin-top-5em {
+  margin-top: 5em;
+}
+
+.margin-bottom-5em {
+  margin-bottom: 5em;
+}
+
+.margin-right-5em {
+  margin-right: 5em;
+}
+
+.margin-left-5em {
+  margin-left: 5em;
+}
+
+.margin-5em {
+  margin: 5em;
+}
+
 .margin-top {
   margin-top: 1em;
+}
+
+.margin-left {
+  margin-left: 1em;
+}
+
+.margin-right {
+  margin-right: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.margin-05em {
+  margin: 0.5em;
+}
+
+.margin-top-05em {
+  margin-top: 0.5em;
+}
+
+.margin-left-05em {
+  margin-left: 0.5em;
+}
+
+.margin-right-05em {
+  margin-right: 0.5em;
+}
+
+.margin-bottom-05em {
+  margin-bottom: 0.5em;
+}
+
+.margin-1em {
+  margin: 1em;
+}
+
+.margin-2em {
+  margin: 2em;
+}
+
+.margin-3em {
+  margin: 3em;
 }
 
 .padding-top-2em {
@@ -646,10 +842,6 @@ p a[target="_blank"]:after {
 
 .img-75{
   max-width: 75%;
-}
-
-.margin-top-2em {
-  margin-top: 2em;
 }
 
 .no-padding {
