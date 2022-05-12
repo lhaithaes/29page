@@ -1617,6 +1617,10 @@ a.btn-default:hover {
     line-height: 36px;
     top: 0;
   }
+
+  .flex-gradient {
+    padding-top: 6em;
+  }
 }
 
 @media screen and (min-width: 1501px) {
