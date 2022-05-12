@@ -7,6 +7,15 @@
       $(this).tooltip('hide');
     });
   });
+
+  $(function(){
+  var hash = window.location.hash;
+  if(hash !=""){
+    $('.nav-tabs [href="' + hash + '"]').tab('show');
+    $(hash).addClass('active');
+    }
+  });
+
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", function() {
