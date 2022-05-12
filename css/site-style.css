@@ -756,7 +756,7 @@ p a[target="_blank"]:after {
   position: absolute;
   top: -13%;
   left: 0;
-  height: 23%;
+  height: 23.5%;
   width: 100%;
   background: rgb(0,42,91);
   background: linear-gradient(to bottom, transparent 50%, #002a5b 50%, rgba(0, 42, 91, 0.65) 69%, transparent 100%);
