@@ -188,6 +188,11 @@ p a[target="_blank"]:after {
   display: flex;
 }
 
+.row-deep {
+  padding-bottom: 3em;
+  padding-top: 2.5em;
+}
+
 .row-deeper {
   padding-bottom: 6em;
   padding-top: 5em;
