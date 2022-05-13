@@ -153,6 +153,10 @@ p a[target="_blank"]:after {
   display: none;
 }
 
+.white-text {
+  color: #ffffff;
+}
+
 .lead {
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Arial", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", sans-serif;
   font-weight: 300;
