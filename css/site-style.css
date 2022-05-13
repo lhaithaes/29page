@@ -852,6 +852,30 @@ p a[target="_blank"]:after {
   padding: 0;
 }
 
+.image-highlight {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: color .5s;
+  background-color: #fcfcfc;
+  background: -moz-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
+  background: -webkit-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
+  background: linear-gradient(to bottom, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 0;
+}
+
+.image-highlight:hover {
+  background: -moz-linear-gradient(top, #fff 0, #fff 70%, #fff 100%);
+  background: -webkit-linear-gradient(top, #fff 0, #fff 70%, #fff 100%);
+  background: linear-gradient(to bottom, #fff 0, #fff 70%, #fff 100%);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22)
+}
+
 .footer-curve {
   width: 100%;
   right: -1.2em;
