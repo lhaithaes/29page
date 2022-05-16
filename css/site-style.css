@@ -138,6 +138,47 @@ a.white-text:hover {
   border-bottom: none;
 }
 
+.action-menu {
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  height: 3em;
+  width: 100%;
+}
+
+.overlay-menu .action-menu .cust-portal {
+  display: none;
+}
+
+.overlay-menu .action-menu {
+  z-index: 1030;
+  background-color: transparent;
+}
+
+.noscroll .action-menu {
+  position: fixed;
+  top: 3em;
+}
+
+.block-menu.action-menu {
+  width: 10%;
+  background: none;
+  margin-left: 1.25em;
+  padding: 0;
+  float: left;
+}
+
+.block-menu.action-menu a {
+  border-bottom: none;
+  color: #ffffff;
+  padding: 0.7em 0 0 0;
+}
+
+.block-menu.action-menu a:hover {
+  border-bottom: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+
 a {
   color: #dd1e25;
 }
@@ -1292,6 +1333,14 @@ a.btn-default:hover {
     line-height: 24px;
   }
 
+  .action-menu {
+    height: 4em;
+  }
+
+  .block-menu.action-menu {
+    display: none;
+  }
+
   .navigation a {
     display: none;
   }
@@ -1500,9 +1549,13 @@ a.btn-default:hover {
     padding-left: 11em;
   }
 
+  .noscroll .action-menu {
+    top: 3.4em;
+  }
+
   .front__flex-margin {
     margin: 2em 0 0 0;
-}
+  }
 
   .socialmedia ul {
     top: 15%;
@@ -1727,48 +1780,51 @@ a.btn-default:hover {
     overflow-x: auto;
   }
 
+  .noscroll .action-menu {
+    top: 3.3em;
+  }
 
-    .carousel-inner.horizontal>.item.next,
-    .carousel-inner.horizontal>.item.active.right {
-      -webkit-transform: translate3d(33%, 0, 0);
-      transform: translate3d(33%, 0, 0);
-      left: 0;
-    }
+  .carousel-inner.horizontal>.item.next,
+  .carousel-inner.horizontal>.item.active.right {
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+    left: 0;
+  }
 
-    .carousel-inner.horizontal>.item.prev,
-    .carousel-inner.horizontal>.item.active.left {
-      -webkit-transform: translate3d(-33%, 0, 0);
-      transform: translate3d(-33%, 0, 0);
-      right: 0;
-    }
+  .carousel-inner.horizontal>.item.prev,
+  .carousel-inner.horizontal>.item.active.left {
+    -webkit-transform: translate3d(-33%, 0, 0);
+    transform: translate3d(-33%, 0, 0);
+    right: 0;
+  }
 
-    .carousel-inner.horizontal>.item.next.left,
-    .carousel-inner.horizontal>.item.prev.right,
-    .carousel-inner.horizontal>.item.active {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      left: 0;
-    }
+  .carousel-inner.horizontal>.item.next.left,
+  .carousel-inner.horizontal>.item.prev.right,
+  .carousel-inner.horizontal>.item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
 
-    .carousel-inner .item.active>div:first-child+div {
-      display: flex;
-    }
+  .carousel-inner .item.active>div:first-child+div {
+    display: flex;
+  }
 
-    .carousel-inner .item.active>div:first-child+div+div {
-      display: flex;
-    }
+  .carousel-inner .item.active>div:first-child+div+div {
+    display: flex;
+  }
 
-    .carousel-inner .item.active .news, .carousel-inner.horizontal>.item.active.right .news, .carousel-inner.horizontal>.item.active.left .news, .carousel-inner.horizontal>.item.prev.right .news, .carousel-inner.horizontal>.item.next.left .news {
-      display: flex;
-    }
+  .carousel-inner .item.active .news, .carousel-inner.horizontal>.item.active.right .news, .carousel-inner.horizontal>.item.active.left .news, .carousel-inner.horizontal>.item.prev.right .news, .carousel-inner.horizontal>.item.next.left .news {
+    display: flex;
+  }
 
-    .carousel-inner.horizontal>.item.active.right .news:last-child, .carousel-inner.horizontal>.item.active.left .news:last-child, .carousel-inner.horizontal>.item.prev.right .news:last-child, .carousel-inner.horizontal>.item.next.left .news:last-child {
-      display: flex;
-    }
+  .carousel-inner.horizontal>.item.active.right .news:last-child, .carousel-inner.horizontal>.item.active.left .news:last-child, .carousel-inner.horizontal>.item.prev.right .news:last-child, .carousel-inner.horizontal>.item.next.left .news:last-child {
+    display: flex;
+  }
 
-    .flex-gradient {
-      padding-top: 7.5em;
-    }
+  .flex-gradient {
+    padding-top: 7.5em;
+  }
 }
 
 /* lg */
