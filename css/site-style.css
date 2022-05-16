@@ -143,6 +143,9 @@ a.white-text:hover {
   color: #ffffff;
   height: 3em;
   width: 100%;
+  position: absolute;
+  top: 3em;
+  z-index: 103;
 }
 
 .overlay-menu .action-menu .cust-portal {
