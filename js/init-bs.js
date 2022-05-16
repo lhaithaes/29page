@@ -14,8 +14,8 @@
 
     $('a.scroll').on('click', function (e) {
       $('html, body').animate({
-        scrollTop: $('.tab-pane').offset().top, 1000
-        });
+        scrollTop: $('.tab-pane').offset().top-100
+      }, 1000);
         e.preventDefault();
       });
   });
