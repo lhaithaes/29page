@@ -416,6 +416,10 @@ p a[target="_blank"]:after {
   color: #ffffff;
 }
 
+.form-control {
+  font-size: inherit;
+}
+
 .flex-down {
   margin: -4.3em 0 0 0;
   position: relative;
