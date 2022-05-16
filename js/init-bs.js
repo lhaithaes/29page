@@ -6,6 +6,15 @@
     $('[data-toggle="tooltip"]').on('click', function () {
       $(this).tooltip('hide');
     });
+
+    $('a.scroll').on('click', function (e) {
+        var href = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(href).offset().top
+        }, 'slow');
+        e.preventDefault();
+    });
+
   });
 
 document.addEventListener("DOMContentLoaded", function() {
