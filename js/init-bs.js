@@ -9,7 +9,7 @@
 
     $('.vid-tab a').on('click', function(event) {
         event.preventDefault();
-        $('html, body').animate({scrollTop:0}, 'fast');
+        $('html, body').animate({scrollTop: $('#box-set').top}, 1000);
         $(this).tab('show');
     });
   });
