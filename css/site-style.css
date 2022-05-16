@@ -1344,6 +1344,27 @@ p a[target="_blank"]:after {
   white-space: normal;
 }
 
+.btn-primary {
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border-radius: 30px;
+  border: 2px solid transparent !important;
+  box-shadow: none;
+}
+
+.btn-primary a {
+  color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: #ad1c1c;
+  margin-bottom: 0;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
 a.btn-default {
     border: none;
     color: #535354
