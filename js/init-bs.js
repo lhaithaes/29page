@@ -8,7 +8,6 @@
     });
 
     $('.vid-tab a.scroll').on('click', function(event) {
-        event.preventDefault();
         $('html, body').animate({scrollTop: $('#box-set').top - 500}, 1000);
         $(this).tab('show');
     });
