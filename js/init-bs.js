@@ -7,17 +7,11 @@
       $(this).tooltip('hide');
     });
 
-    $('.vid-tab a').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
-    })
-
-    $('a.scroll').on('click', function (e) {
-      $('html, body').animate({
-        scrollTop: $('.tab-pane').offset().top - 400
-      }, 1000);
-        e.preventDefault();
-      });
+    $('.vid-tab a').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop:0}, 'fast');
+        $(this).tab('show');
+    });
   });
 
 document.addEventListener("DOMContentLoaded", function() {
