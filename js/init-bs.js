@@ -65,3 +65,4 @@ document.addEventListener("DOMContentLoaded", function() {
       window.addEventListener("orientationChange", lazyload);
     }
   });
+});
