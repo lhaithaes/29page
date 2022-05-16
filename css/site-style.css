@@ -394,6 +394,7 @@ p a[target="_blank"]:after {
   height: 34px;
   font-size: inherit;
   line-height: 5px;
+  background-image: none;
   background-color: #DD1E25;
   border-color: #DD1E25;
   bottom: 1px;
