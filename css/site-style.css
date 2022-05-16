@@ -385,6 +385,10 @@ p a[target="_blank"]:after {
   border-radius: 30px;
 }
 
+.views-search-block {
+  padding-top: 0.2em;
+}
+
 .search-block .btn {
   margin: 0;
   display: inline;
