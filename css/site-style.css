@@ -1365,6 +1365,10 @@ a.btn-default:hover {
     top: 3em
   }
 
+  .cust-portal {
+    display: none;
+  }
+
   .block-menu.action-menu {
     display: none;
   }
