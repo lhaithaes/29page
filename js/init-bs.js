@@ -18,7 +18,7 @@
       e.preventDefault();
       $('html, body').stop().animate({
         scrollTop: $('.tab-pane').offset().top - 500
-      }, 'slow');
+      }, 1000);
     });
   });
 
