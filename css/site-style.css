@@ -138,6 +138,12 @@ a.white-text:hover {
   border-bottom: none;
 }
 
+.fit-menu {
+  float: right;
+  display: inline-block;
+  height: inherit;
+}
+
 .action-menu {
   background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
@@ -1670,6 +1676,10 @@ a.btn-default:hover {
     top: 3.4em
   }
 
+  .fit-menu {
+    width: 100%;
+  }
+
   .search-block.views-search-block .form-item {
     width: 100%
   }
@@ -1907,6 +1917,10 @@ a.btn-default:hover {
     background-color: #ffffff;
     padding-left: 16em;
     overflow-x: auto;
+  }
+
+  .fit-menu {
+    width: 90%;
   }
 
   .noscroll .action-menu {
