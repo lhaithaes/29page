@@ -141,10 +141,10 @@ a.white-text:hover {
 .action-menu {
   background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  height: 3em;
+  height: 3.1em;
   width: 100%;
   position: absolute;
-  top: 3em;
+  top: 3.1em;
   z-index: 103;
 }
 
@@ -159,7 +159,7 @@ a.white-text:hover {
 
 .noscroll .action-menu {
   position: fixed;
-  top: 3em;
+  top: 3.1em;
 }
 
 .block-menu.action-menu {
@@ -1433,7 +1433,7 @@ a.btn-default:hover {
   }
 
   .action-menu {
-    top: 3em
+    top: 3.1em
   }
 
   .cust-portal {
@@ -1985,7 +1985,7 @@ a.btn-default:hover {
   }
 
   .action-menu {
-    top: 3em;
+    top: 3.1em;
   }
 
   .views-search-block .form-item {
