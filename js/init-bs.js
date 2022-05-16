@@ -8,16 +8,6 @@
     });
   });
 
-  $(document).ready(function ($) {
-
-    $('a.scroll').on('click', function (e) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: $('#opText').offset().top - 500
-      }, 1000);
-    });
-  });
-
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;
 
