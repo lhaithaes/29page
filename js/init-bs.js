@@ -14,7 +14,7 @@
 
     $('a.scroll').on('click', function (e) {
       $('html, body').animate({
-        scrollTop: $('.tab-pane').offset().top-200
+        scrollTop: $('.tab-pane').offset().top - 400
       }, 1000);
         e.preventDefault();
       });
