@@ -12,7 +12,7 @@
 
     $('a.scroll').on('click', function (e) {
       e.preventDefault();
-      $('html, body').stop().animate({
+      $('html, body').animate({
         scrollTop: $('#opText').offset().top - 500
       }, 1000);
     });
