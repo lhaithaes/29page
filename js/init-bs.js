@@ -6,12 +6,21 @@
     $('[data-toggle="tooltip"]').on('click', function () {
       $(this).tooltip('hide');
     });
-
-    $('.vid-tab a.scroll').on('click', function(event) {
-        $('html, body').animate({scrollTop: $('#box-set').top - 500}, 1000);
-        $(this).tab('show');
-    });
   });
+
+  $(document).ready(function ($) {
+
+    $('.vid-tab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show')
+    })
+    $('a.scroll').on('click', function (e) {
+      e.preventDefault();
+      $('html, body').stop().animate({
+        scrollTop: $('.tab-pane').offset().top - 280
+      }, 'slow');
+    });
+  }); 
 
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;
