@@ -1779,7 +1779,6 @@ a.btn-default:hover {
 
   .carousel-inner .item.active>div:first-child+div {
     display: flex;
-    height: 100%;
   }
 
   .carousel-inner .item.active>div:first-child+div+div {
@@ -1793,7 +1792,6 @@ a.btn-default:hover {
 
   .media-carousel .carousel-inner .item.next.left>div:first-child, .media-carousel .carousel-inner .item.prev.right>div:first-child+div {
     display: flex;
-    height: 100%;
   }
 
   .media-carousel .carousel-inner .item.active>div:first-child {
