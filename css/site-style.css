@@ -359,6 +359,16 @@ p a[target="_blank"]:after {
   font-size: inherit;
 }
 
+.search-block .views-exposed-widgets {
+  display: flex;
+}
+
+.views-exposed-widgets {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.75em;
+}
+
 .flex-down {
   margin: -4.3em 0 0 0;
   position: relative;
