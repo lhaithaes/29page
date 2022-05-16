@@ -7,9 +7,9 @@
       $(this).tooltip('hide');
     });
 
-    $('.vid-tab a').on('click', function(event) {
+    $('.vid-tab a.scroll').on('click', function(event) {
         event.preventDefault();
-        $('html, body').animate({scrollTop: $('#box-set').top}, 1000);
+        $('html, body').animate({scrollTop: $('#box-set').top - 500}, 1000);
         $(this).tab('show');
     });
   });
