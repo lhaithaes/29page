@@ -10,10 +10,6 @@
 
   $(document).ready(function ($) {
 
-    $('.vid-tab a').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show')
-    })
     $('a.scroll').on('click', function (e) {
       e.preventDefault();
       $('html, body').stop().animate({
