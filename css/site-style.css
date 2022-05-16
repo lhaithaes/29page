@@ -327,6 +327,27 @@ p a[target="_blank"]:after {
   bottom: 0;
 }
 
+.cust-portal {
+  float: right;
+  margin-right: 0.6em;
+  padding-top: 0.6em;
+  height: 100%;
+}
+
+.cust-portal a {
+  border-bottom: none;
+  color: #ffffff;
+}
+
+.cust-portal a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.cust-portal-text {
+  vertical-align: bottom;
+  font-size: 1.5em;
+}
+
 .flex-down {
   margin: -4.3em 0 0 0;
   position: relative;
@@ -1340,6 +1361,10 @@ a.btn-default:hover {
     height: 4em;
   }
 
+  .action-menu {
+    top: 3em
+  }
+
   .block-menu.action-menu {
     display: none;
   }
@@ -1554,6 +1579,10 @@ a.btn-default:hover {
 
   .noscroll .action-menu {
     top: 3.4em;
+  }
+
+  .action-menu {
+    top: 3.4em
   }
 
   .front__flex-margin {
@@ -1787,6 +1816,10 @@ a.btn-default:hover {
     top: 3.3em;
   }
 
+  .action-menu {
+    top: 3.3em
+  }
+
   .carousel-inner.horizontal>.item.next,
   .carousel-inner.horizontal>.item.active.right {
     -webkit-transform: translate3d(33%, 0, 0);
@@ -1857,6 +1890,10 @@ a.btn-default:hover {
     font-weight: 600;
     line-height: 1.1;
     margin-top: 10px;
+  }
+
+  .action-menu {
+    top: 3em;
   }
 
   h1 {
