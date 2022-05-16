@@ -6,6 +6,12 @@
     $('[data-toggle="tooltip"]').on('click', function () {
       $(this).tooltip('hide');
     });
+
+    $('.vid-tab a').click(function (e) {
+     e.preventDefault();
+     $(this).tab('show')
+   });
+
   });
 
 document.addEventListener("DOMContentLoaded", function() {
