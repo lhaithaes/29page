@@ -340,6 +340,7 @@ p a[target="_blank"]:after {
 
 .cust-portal a:hover {
   border-bottom: 1px solid #ffffff;
+  text-decoration: none;
 }
 
 .cust-portal-text {
