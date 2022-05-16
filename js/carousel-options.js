@@ -29,7 +29,7 @@
   });
 
   function horizontalNormalization() {
-    var items = $('.media-carousel .item .news'),
+    var items = $('.media-carousel .item'),
       heights = [],
       tallest;
 
