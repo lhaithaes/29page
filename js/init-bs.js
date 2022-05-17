@@ -1,16 +1,6 @@
 (function($){
 
   $(document).ready(function() {
-    $('.vid-tab').on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: $('.tab-pane').offset().top - 100
-      }, 1000);
-    });
-  });
-
-
-  $(document).ready(function() {
     $('[data-toggle="tooltip"]').tooltip({
       trigger: 'hover'
     });
