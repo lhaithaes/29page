@@ -7,13 +7,6 @@
       $(this).tooltip('hide');
     });
 
-    $('.vid-tab').on('click', function() {
-      console.log('clicked img');
-      $('html, body').animate({
-          scrollTop: $('.tab-pane').offset.top - 100
-      }, 1000);
-    });
-
   });
 
 document.addEventListener("DOMContentLoaded", function() {

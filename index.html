@@ -24,6 +24,18 @@
   <script type="text/javascript" src="js/smooth-scroll.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" charset="utf-8">
+  $(function() {
+    $(document).ready(function() {
+      $('.vid-tab').on('click', function() {
+        console.log('clicked img');
+        $('html, body').animate({
+          scrollTop: $('.tab-pane').offset.top - 100
+        }, 1000);
+      });
+    });
+  });
+  </script>
 </head>
 
 <div class="container-fluid bannercontainer">
