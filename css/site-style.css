@@ -1578,20 +1578,20 @@ a.btn-default:hover {
   }
 
   .media-carousel .carousel-inner .item.prev.right>div:first-child {
-    display: flex;
+    display: block;
   }
 
   .media-carousel .carousel-inner .item.next.left>div:first-child {
-    display: flex;
+    display: block;
   }
 
   .media-carousel .carousel-inner .item.active>div:first-child {
-    display: flex;
+    display: block;
     justify-content: center;
   }
 
   .media-carousel .carousel-inner .item.active {
-    display: flex;
+    display: block;
   }
 
   .media-carousel .carousel-inner .item.active.left, .media-carousel .carousel-inner .item.active.right, .media-carousel .carousel-inner>.item.next.left, .media-carousel .carousel-inner>.item.prev.right {
