@@ -7,7 +7,7 @@
       $(this).tooltip('hide');
     });
 
-    $('a.scroll').on('click', (function(){
+    $('a.scroll').on('click', function(){
       console.log('clicked img');
       $('html, body').animate({
           scrollTop: $('.tab-pane').offset.top - 100
