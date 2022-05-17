@@ -8,6 +8,7 @@
     });
 
     $('a[data-target="#box-set"] img').on('click', function(){
+      console.log('clicked img');
       $('html, body').animate({
           scrollTop: $('.tab-pane').offset.top-100
       }, 1000);
