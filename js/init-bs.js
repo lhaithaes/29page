@@ -7,12 +7,6 @@
       $(this).tooltip('hide');
     });
 
-    $('.vid-tab a').click(function (e) {
-     e.preventDefault();
-     e.stopImmediatePropagation();
-     $(this).tab('show')
-   });
-
   });
 
 document.addEventListener("DOMContentLoaded", function() {
