@@ -7,7 +7,7 @@
       $(this).tooltip('hide');
     });
 
-    $('a[data-target="box-set"]').on('click', function(){
+    $('a[data-target="#box-set"]').on('click', function(){
       $('html, body').animate({
           scrollTop: $('.tab-pane').offset.top-100
       }, 1000);
