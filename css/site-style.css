@@ -1617,6 +1617,10 @@ a.btn-default:hover {
   .social-community-gradient::before{
     top: -14%;
   }
+
+  .news-panel {
+    width: 100%;
+  }
 }
 
 /* sm */
