@@ -30,7 +30,7 @@
       $('.vid-tab').on('click', function() {
         e.preventDefault();
         $('html, body').animate({
-          scrollTop: $('.tab-pane').offset.top - 100
+          scrollTop: $('.tab-pane').offset().top - 100
         }, 1000);
       });
     });
