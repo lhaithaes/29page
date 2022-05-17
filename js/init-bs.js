@@ -10,7 +10,7 @@
     $('a.scroll').on('click', (function(){
       console.log('clicked img');
       $('html, body').animate({
-          scrollTop: $('.tab-pane').offset.top-100
+          scrollTop: $('.tab-pane').offset.top - 100
       }, 1000);
     });
 
