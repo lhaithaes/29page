@@ -58,7 +58,7 @@
   }
 
   window.onload = function() {
-    if ($(window).width() > 768) {
+    if ($(window).width() > 991) {
       horizontalNormalization();
     }
   };
