@@ -1015,6 +1015,10 @@ p a[target="_blank"]:after {
   padding: 0;
 }
 
+.float-right {
+  float: right;
+}
+
 .image-highlight {
   text-align: center;
   position: relative;
