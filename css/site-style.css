@@ -2192,6 +2192,7 @@ ul.resource-cats a, ul.about-us-cats a {
     background-color: #ffffff;
     padding-left: 16em;
     overflow-x: auto;
+    z-index: 1036;
   }
 
   .fit-menu {
