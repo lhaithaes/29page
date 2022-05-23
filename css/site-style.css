@@ -1458,6 +1458,14 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   padding: 0;
 }
 
+
+
+.overlay-main a:hover {
+  transform: scale(1.1);
+  overflow: visible;
+  color: #dd1e25;
+}
+
 .overlay-menu {
   transition: 0.5s;
   width: 100%;
@@ -1542,6 +1550,18 @@ ul.resource-cats a, ul.about-us-cats a {
 .noscroll .action-menu {
   position: fixed;
   top: 3em;
+}
+
+.overlay-main a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-size: 2em;
+  line-height: 1.3em;
 }
 
 .change:after {
