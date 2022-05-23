@@ -1564,6 +1564,10 @@ ul.resource-cats a, ul.about-us-cats a {
   color: #dd1e25;
 }
 
+.inline {
+  display: inline;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
