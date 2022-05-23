@@ -9,6 +9,7 @@
             x.style.height = "0%";
             $('.main').removeClass('active');
             $("body").removeClass('noscroll');
+            $('.progress-container').removeClass('display-none');
             $('#overlay-btn').addClass('overlay-btn');
             $('.search-block').removeClass('overlay-search');
             $('.navigation_col').removeClass('overlay-menu');
@@ -17,6 +18,7 @@
             x.style.height = "100%";
             $('.main').addClass('active');
             $("body").addClass('noscroll');
+            $('.progress-container').addClass('display-none');
             $('#overlay-btn').removeClass('overlay-btn');
             $('.search-block').addClass('overlay-search');
             $('.navigation_col').addClass('overlay-menu');
