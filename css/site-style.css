@@ -1395,6 +1395,130 @@ a.btn-default:hover {
   cursor: pointer;
 }
 
+.overlay-main {
+  height: 0%;
+  background-color: rgba(0, 0, 0, .85);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  transition: 0.5s;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.overlay-menu {
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+}
+
+.change {
+  color: transparent;
+  pointer-events: none;
+}
+
+.overlay-menu .action-menu .cust-portal {
+  display: none;
+}
+
+.change:hover, .change:focus {
+  color: transparent;
+  border-bottom: none;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.overlay-menu .action-menu {
+  z-index: 1030;
+  background-color: transparent;
+}
+
+.full-menu {
+  width: 100%;
+}
+
+ul.resource-cats a, ul.about-us-cats a {
+  font-size: 1em;
+  text-align: left;
+}
+
+.overlay-content ul li {
+  float: none;
+  display: block;
+}
+
+.overlay-content h4 {
+  color: #ffffff;
+}
+
+.overlay-main.active {
+  height: 100%;
+}
+
+.overlay-main a:hover {
+  transform: scale(1.1);
+  overflow: visible;
+  color: #dd1e25;
+}
+
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: left;
+  height: 60vh;
+}
+
+.sitemap-icon {
+  position: absolute;
+  bottom: 0%;
+  right: 4%;
+}
+
+.overlay-search {
+  position: relative;
+  z-index: 101;
+  width: 65%;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.noscroll .action-menu {
+  position: fixed;
+  top: 3em;
+}
+
+.change:after {
+  display: inline-block;
+  content: "\00d7";
+  color: #ffffff;
+  position: fixed;
+  font-size: 3em;
+  float: right;
+  z-index: 1032;
+  top: 2em;
+  right: 1em;
+  height: 1em;
+  width: 1em;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.change:hover:after {
+  color: #dd1e25;
+}
+
 @media screen and (max-width: 767px) {
   .banner-title {
     font-size: 42px;
@@ -1631,6 +1755,21 @@ a.btn-default:hover {
   .news-panel {
     width: 100%;
   }
+
+  .overlay-main a {
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 0.95em 1.1em;
+  }
+
+  .change:after {
+    top: 17%;
+  }
+
+  .overlay-content {
+    top: 16%;
+    transform: translate(0);
+  }
 }
 
 /* sm */
@@ -1836,6 +1975,32 @@ a.btn-default:hover {
   .media-carousel .carousel-inner .item.active>div:first-child {
     display: flex;
   }
+
+  .noscroll .action-menu {
+    top: 3.4em;
+  }
+
+  .overlay-btn {
+    margin-right: 0;
+  }
+
+  .overlay-main a {
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  .overlay-content {
+    top: 30%;
+  }
+
+  .change:after {
+    top: 2em;
+  }
+
+  ul.resource-cats a, ul.about-us-cats a {
+    font-size: 1.4em;
+    line-height: 2.2em;
+  }
 }
 
 /* md */
@@ -2012,6 +2177,24 @@ a.btn-default:hover {
 
   .flex-gradient {
     padding-top: 7.5em;
+  }
+
+  .noscroll .action-menu {
+    top: 3.3em;
+  }
+
+  .overlay-main a {
+    font-size: 1.8em;
+    line-height: 2em;
+  }
+
+  .overlay-btn {
+    margin-right: 1.5em;
+  }
+
+  ul.resource-cats a, ul.about-us-cats a {
+    font-size: 1.2em;
+    line-height: 2em;
   }
 }
 
