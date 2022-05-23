@@ -31,14 +31,14 @@ $(document).ready(function() {
   $('.vid-tab').on('click', function(e) {
     e.preventDefault();
     $('html:not(:animated), body:not(:animated)').animate({
-      scrollTop: $('#box-set').offset().top - 100
+      scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
 
   $('.latest-vid').on('click', function(x){
     x.preventDefault();
     $('html:not(:animated), body:not(:animated)').animate({
-      scrollTop: $('#box-set').offset().top - 100
+      scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
 });
