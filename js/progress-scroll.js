@@ -30,14 +30,14 @@ $(document).ready(function(){
 $(document).ready(function() {
   $('.vid-tab').on('click', function(e) {
     e.preventDefault();
-    $('html, body').animate({
+    $('html:not(:animated), body:not(:animated)').animate({
       scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
 
   $('.latest-vid').on('click', function(x){
     x.preventDefault();
-    $('html, body').animate({
+    $('html:not(:animated), body:not(:animated)').animate({
       scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
