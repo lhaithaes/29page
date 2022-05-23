@@ -1454,6 +1454,10 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   -webkit-backdrop-filter: blur(5px);
 }
 
+.nav .overlay-main li a{
+  padding: 0;
+}
+
 .overlay-menu {
   transition: 0.5s;
   width: 100%;
