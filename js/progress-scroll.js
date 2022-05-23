@@ -38,7 +38,7 @@ $(document).ready(function() {
   $('.latest-vid').on('click', function(x){
     x.preventDefault();
     $('html:not(:animated), body:not(:animated)').animate({
-      scrollTop: $('.tab-pane .recent-vid').offset().top - 100
+      scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
 });
