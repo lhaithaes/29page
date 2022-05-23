@@ -1451,13 +1451,16 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   transition: 0.5s;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  z-index: -1;
 }
 
 .nav .overlay-main li a{
   padding: 0;
 }
 
-
+.display-none {
+  display: none;
+}
 
 .overlay-main a:hover {
   transform: scale(1.1);
