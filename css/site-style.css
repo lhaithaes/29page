@@ -1445,7 +1445,6 @@ ul.resource-cats, ul.product-cats, ul.about-us-cats {
   background-color: rgba(0, 0, 0, .85);
   width: 100%;
   position: fixed;
-  z-index: 100;
   top: 0;
   left: 0;
   overflow-y: scroll;
