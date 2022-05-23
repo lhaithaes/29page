@@ -34,6 +34,13 @@ $(document).ready(function() {
       scrollTop: $('.tab-pane').offset().top - 100
     }, 1000);
   });
+
+  $('.latest-vid').on('click', function(e){
+    e.preventDefault();
+    $('html,body').animate({
+      scrollTop: $('#latest-vid').offset().top - 100
+    }, 1000);
+  });
 });
 
 })(jQuery);
