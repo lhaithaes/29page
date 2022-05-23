@@ -35,8 +35,8 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  $('.latest-vid').on('click', function(e){
-    e.preventDefault();
+  $('.latest-vid').on('click', function(x){
+    x.preventDefault();
     $('html,body').animate({
       scrollTop: $('.recent-vid').offset().top - 100
     }, 1000);
