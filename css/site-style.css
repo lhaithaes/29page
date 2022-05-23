@@ -1395,6 +1395,51 @@ a.btn-default:hover {
   cursor: pointer;
 }
 
+.overlay-btn {
+  float: right;
+  margin-right: 1.5em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: block;
+  color: #535454;
+  padding: 0.7em 1.1em;
+  text-decoration: none;
+  z-index: 1036;
+  border-top: 4px solid transparent;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.footer-overlay-btn {
+  color: #ffffff;
+  cursor: pointer;
+  border-bottom: 1px dashed #888c8f;
+}
+
+.overlay-btn:hover, .overlay-btn:focus {
+  border-top: 4px solid #dd1e25;
+  border-bottom: none;
+  color: #333;
+  text-decoration: none;
+}
+
+.overlay-btn:focus {
+  border-bottom: none;
+  color: #535454;
+  text-decoration: none;
+}
+
+ul.resource-cats, ul.product-cats, ul.about-us-cats {
+  background: none;
+  overflow: visible;
+}
+
+.overlay-content {
+  background-color: none;
+  position: static;
+}
+
 .overlay-main {
   height: 0%;
   background-color: rgba(0, 0, 0, .85);
