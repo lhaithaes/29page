@@ -43,6 +43,15 @@ $(document).ready(function() {
       x.preventDefault();
     });
   }
+
+  if ($(window).width() < 768) {
+    $('.latest-vid').on('click', function(x){
+      setTimeout (function() {
+        $('.iceberg-footer-banner').scrollTop(0)
+      })
+      x.preventDefault();
+    });
+  }
 });
 
 })(jQuery);
