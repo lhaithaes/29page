@@ -45,12 +45,10 @@ $(document).ready(function() {
   }
 
   if ($(window).width() < 768) {
-    $('.latest-vid').on('click', function(y){
-      $('#box-set').tab('show');
+    $('a.latest-vid').on('shown.bs.tab', function(y){
       $('html:not(:animated), body:not(:animated)').animate({
-        scrollTop: $('.iceberg-footer-banner').offset().top - 100
+        scrollTop: $('.recent-vid').offset().top - 100
       }, 1000);
-      y.preventDefault();
     });
   }
 });
