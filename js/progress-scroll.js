@@ -35,7 +35,7 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  if ($(window).width() > 991) {
+  if ($(window).width() > 767) {
     $('.latest-vid').on('click', function(x){
       $('html:not(:animated), body:not(:animated)').animate({
         scrollTop: $('.iceberg-footer-banner').offset().top
