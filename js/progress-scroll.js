@@ -35,11 +35,13 @@ $(document).ready(function() {
     }, 1000);
   });
 
-  $('.latest-vid').on('click', function(x){
-    $('html:not(:animated), body:not(:animated)').animate({
-      scrollTop: $('.iceberg-footer-banner').offset().top
-    }, 1000);
-    x.preventDefault();
+  if ($(window).width() > 991) {
+    $('.latest-vid').on('click', function(x){
+      $('html:not(:animated), body:not(:animated)').animate({
+        scrollTop: $('.iceberg-footer-banner').offset().top
+      }, 1000);
+      x.preventDefault();
+    });
   });
 });
 
