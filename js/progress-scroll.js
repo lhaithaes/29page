@@ -36,11 +36,10 @@ $(document).ready(function() {
   });
 
   if ($(window).width() > 767) {
-    $('.latest-vid').on('click', function(x){
+    $('a.latest-vid').on('shown.bs.tab', function(y){
       $('html:not(:animated), body:not(:animated)').animate({
-        scrollTop: $('.iceberg-footer-banner').offset().top
+        scrollTop: $('.recent-vid').offset().top - 100
       }, 1000);
-      x.preventDefault();
     });
   }
 
