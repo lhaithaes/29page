@@ -48,7 +48,7 @@ $(document).ready(function() {
     $('.latest-vid').on('click', function(x){
       setTimeout (function() {
         $('.iceberg-footer-banner').scrollTop(0)
-      })
+      }, 1000);
       x.preventDefault();
     });
   }
