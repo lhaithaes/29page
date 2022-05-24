@@ -46,6 +46,7 @@ $(document).ready(function() {
 
   if ($(window).width() < 768) {
     $('.latest-vid').on('click', function(y){
+      $('#box-set').tab('show');
       $('html:not(:animated), body:not(:animated)').animate({
         scrollTop: $('.iceberg-footer-banner').offset().top - 100
       }, 1000);
