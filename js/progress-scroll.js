@@ -37,7 +37,7 @@ $(document).ready(function() {
 
   $('.latest-vid').on('click', function(x){
     $('html:not(:animated), body:not(:animated)').animate({
-      scrollTop: $('.iceberg-footer-banner').offset().top-200
+      scrollTop: $('.iceberg-footer-banner').offset().top
     }, 1000);
     x.preventDefault();
   });
