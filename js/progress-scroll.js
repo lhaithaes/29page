@@ -46,8 +46,8 @@ $(document).ready(function() {
 
   if ($(window).width() < 768) {
     $('.latest-vid').on('click', function(x){
-      setTimeout (function() {
-        $('.iceberg-footer-banner').scrollTop(0)
+      $('html:not(:animated), body:not(:animated)').animate({
+        scrollTop: $('.iceberg-footer-banner').offset().top
       }, 1000);
       x.preventDefault();
     });
