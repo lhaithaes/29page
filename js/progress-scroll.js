@@ -45,11 +45,11 @@ $(document).ready(function() {
   }
 
   if ($(window).width() < 768) {
-    $('.latest-vid').on('click', function(x){
+    $('.latest-vid').on('click', function(y){
       $('html:not(:animated), body:not(:animated)').animate({
         scrollTop: $('.iceberg-footer-banner').offset().top - 100
       }, 1000);
-      x.preventDefault();
+      y.preventDefault();
     });
   }
 });
