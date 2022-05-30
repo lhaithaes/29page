@@ -51,14 +51,14 @@ $(document).ready(function() {
     });
   }
 
-  $(function() {
-    var hash = document.location.hash;
-    if (hash) {
-      console.log(hash);
-      $('.vid-tab a[href='+hash+']').tab('show');
-    }
-  })
-
 });
+
+$(function() {
+  var hash = document.location.hash;
+  if (hash) {
+    console.log(hash);
+    $('.vid-tab a[href='+hash+']').tab('show');
+  }
+})
 
 })(jQuery);
