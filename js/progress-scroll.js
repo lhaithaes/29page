@@ -53,15 +53,4 @@ $(document).ready(function() {
 
 });
 
-$(function() {
-  var hash = document.location.hash;
-  if (hash) {
-    console.log(hash);
-    $('.vid-tab a[href*=\\'+hash+']').tab('show');
-  }
-    $('.vid-tab a[data-toggle="tab"]').on('show.bs.tab', function (e) {
-      window.location.hash = e.target.hash;
-    });
-  });
-
 })(jQuery);
