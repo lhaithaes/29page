@@ -50,6 +50,15 @@ $(document).ready(function() {
       }, 1000);
     });
   }
+
+  $(function() {
+    var hash = document.location.hash;
+    if (hash) {
+      console.log(hash);
+      $('.vid-tab a[data-target='+hash+']').tab('show');
+    }
+  })
+
 });
 
 })(jQuery);
