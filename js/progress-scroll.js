@@ -55,7 +55,7 @@ $(document).ready(function() {
     var hash = document.location.hash;
     if (hash) {
       console.log(hash);
-      $('.vid-tab a[data-target='+hash+']').tab('show');
+      $('.vid-tab a[href='+hash+']').tab('show');
     }
   })
 
