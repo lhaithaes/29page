@@ -59,6 +59,6 @@ $(function() {
     console.log(hash);
     $('.vid-tab a[href='+hash+']').tab('show');
   }
-})
+});
 
 })(jQuery);
