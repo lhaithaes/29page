@@ -51,10 +51,12 @@ $(document).ready(function() {
     });
   }
 
-  var url = window.location.href;
-  var activeTab = url.substring(url.indexOf("#") +1);
-  $(".tab-pane").removeClass("active");
-  $("#" + activeTab).addClass("active");
+  if(window.location.hash) {
+    var url = window.location.href;
+    var activeTab = url.substring(url.indexOf("#") +1);
+    $(".tab-pane").removeClass("active");
+    $("#" + activeTab).addClass("active");
+  }
 
 });
 
