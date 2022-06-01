@@ -1590,6 +1590,27 @@ ul.resource-cats a, ul.about-us-cats a {
   color: #dd1e25;
 }
 
+.position-rel {
+  position: relative;
+}
+
+.center-play {
+  color: #002a5b;
+  text-shadow:  0 0 3px #ffffff;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  border-bottom: none;
+}
+
+.center-play:hover {
+  color: #004a8c;
+}
+
+.vid-thumb:hover + .center-play {
+  color: #004a8c;
+}
+
 .inline {
   display: inline;
 }
