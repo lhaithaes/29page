@@ -16,11 +16,7 @@
 
     var vidString = getUrlVars()["v"];
     if(vidString == 'rv') {
-      $('a[href = "#box-set"').on('shown.bs.tab', function(x){
-        $('html:not(:animated), body:not(:animated)').animate({
-          scrollTop: $('.recent-vid').offset().top - 100
-        }, 1000);
-    }).tab('show');
-  }
+      $('a[href="#box-set"]').tab('show');
+    }
   });
 })(jQuery);
