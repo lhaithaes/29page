@@ -18,6 +18,9 @@
     if(vidString == 'rv') {
       $(".tab-pane").removeClass("active");
       $("#box-set").addClass("active");
+      $('html:not(:animated), body:not(:animated)').animate({
+        scrollTop: $('.recent-vid').offset().top - 100
+      }, 1000);
     }
   });
 })(jQuery);
