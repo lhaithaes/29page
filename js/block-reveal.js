@@ -16,11 +16,11 @@
 
     var vidString = getUrlVars()["v"];
     if(vidString == 'rv') {
-      $('#box-set').tirgger('show.bs.tab'){
+      $('#box-set').tirgger('show.bs.tab', function(x){
         $('html:not(:animated), body:not(:animated)').animate({
           scrollTop: $('.recent-vid').offset().top - 100
         }, 1000);
-    }
+    });
   }
   });
 })(jQuery);
