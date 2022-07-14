@@ -20,7 +20,7 @@
         $('html:not(:animated), body:not(:animated)').animate({
           scrollTop: $('.recent-vid').offset().top - 100
         }, 1000);
-    });
+    }).tab('show');
   }
   });
 })(jQuery);
