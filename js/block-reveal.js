@@ -16,7 +16,7 @@
 
     var vidString = getUrlVars()["v"];
     if(vidString == 'rv') {
-      $('a[href = "#box-set"').trigger('shown.bs.tab', function(x){
+      $('a[href = "#box-set"').on('shown.bs.tab', function(x){
         $('html:not(:animated), body:not(:animated)').animate({
           scrollTop: $('.recent-vid').offset().top - 100
         }, 1000);
