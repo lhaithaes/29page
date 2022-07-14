@@ -16,7 +16,8 @@
 
     var vidString = getUrlVars()["v"];
     if(vidString == 'rv') {
-      $('a[href="#box-set"]').tab('show');
+      $(".tab-pane").removeClass("active");
+      $('a[href="#box-set"]').addClass("active");
     }
   });
 })(jQuery);
